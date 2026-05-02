@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010144.jpg?t=st=1729333459~exp=1729337059~hmac=835bd7a8b5dba7961f0a529048ce542e72f6c3405d9b137aa748cc8ac5bdcf47&w=1060'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+.content {
+    margin-top: 100px; /* Space for the navbar */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.login-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.signup-btn {
+    background-color: #008CBA; /* Blue */
+
+}
+
+.btn:hover {
+    transform: translateY(-3px); /* Lift effect */
+}
+
+.login-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.signup-btn:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin:30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+}
